@@ -54,6 +54,30 @@ graph TD
     classDef orange fill:#FFA500,stroke:#333,stroke-width:2px;
     classDef purple fill:#9370DB,stroke:#333,stroke-width:2px;
 ```
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'Segoe UI'}}}%%
+graph TD
+    A[("fa:fa-database Datos Brutos")]:::data --> B[/"fa:fa-filter Limpieza de Datos\n(Outliers, Missing Values)"/]:::process
+    B --> C{"fa:fa-balance-scale Evaluación Estratégica"}:::decision
+    C -->|Análisis Cuantitativo| D[["fa:fa-calculator Métricas Financieras<br>• ROI<br>• Margen Neto<br>• Costo Logístico"]]:::metrics
+    C -->|Análisis Cualitativo| E[["fa:fa-users Feedback Clientes<br>• Calificaciones<br>• Reseñas<br>• Tendencias"]]:::feedback
+    D --> F{{"fa:fa-chart-line Ranking Comparativo"}}:::analysis
+    E --> F
+    F --> G[/"fa:fa-map-marked-alt Geoanálisis<br>Heatmaps y Densidad"/]:::geo
+    G --> H[("fa:fa-flag-checkered Recomendación Final")]:::result
+
+    classDef data fill:#2980B9,stroke:#1B4F72,color:white,stroke-width:2px
+    classDef process fill:#3498DB,stroke:#21618C,color:white,stroke-dasharray: 5 5
+    classDef decision fill:#27AE60,stroke:#196F3D,color:white,shape:rhombus
+    classDef metrics fill:#8E44AD,stroke:#6C3483,color:white,stroke-width:3px
+    classDef feedback fill:#E74C3C,stroke:#943126,color:white
+    classDef analysis fill:#F1C40F,stroke:#B7950B,color:black,shape:rect
+    classDef geo fill:#16A085,stroke:#0E6251,color:white
+    classDef result fill:#E67E22,stroke:#BA4A00,color:white,shape:cylinder
+
+    click A "https://github.com/tuusuario/repo/blob/main/data/raw" "Ver datos originales"
+    click H "#recomendacion-final" "Ir a conclusión"
+```
 ## 2. La estructura del proyecto y organizacion de los archivos.
 ## 3. Ejemplos de gráficos  e insights obtenidos.
 ## 4 Intrucciones  para  ejecutar el notebook.
