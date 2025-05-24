@@ -37,8 +37,7 @@ bash
 ## 📄 **Siguientes Pasos para el Sr. Juan**
 - 1. Revisar el reporte detallado con tablas comparativas
 - 2. Analizar el mapa interactivo de calor geográfico
-- 3. Programar una reunión estratégica usando estos insights
-  4. 
+- 3. Programar una reunión estratégica usando estos insights 
 🔗 ## **¿Por qué este enfoque?**
 El análisis combina datos cuantitativos (finanzas, logística) con indicadores cualitativos (satisfacción, ubicación), permitiendo una decisión equilibrada y libre de sesgos emocionales.
 
@@ -55,13 +54,7 @@ graph TD
     D & E & F & G --> H[Matriz de Decisión]
     H --> I[Recomendación Final]
 ```
-```mermaid
-graph TD
-    A[Análisis Inicial]:::orange --> B{Evaluación Cuantitativa}:::purple
-    A --> C{Evaluación Cualitativa}:::purple
-    classDef orange fill:#FFA500,stroke:#333,stroke-width:2px;
-    classDef purple fill:#9370DB,stroke:#333,stroke-width:2px;
-```
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'Segoe UI'}}}%%
 graph TD
@@ -84,12 +77,12 @@ graph TD
     classDef result fill:#E67E22,stroke:#BA4A00,color:white,shape:cylinder
 
     click A "https://github.com/tuusuario/repo/blob/main/data/raw" "Ver datos originales"
-    click H "#recomendacion-final" "Ir a conclusión"
+    click H "Conclusión del Análisis" "Ir a Conclusión del Análisis"
 ```
-##📂 **2. La estructura del proyecto y organizacion de los archivos.**
-# 📁 Estructura del Repositorio
+## 📂 **2. La estructura del proyecto y organizacion de los archivos.**
+ 📁 **2.1 Estructura del Repositorio**
 
-bash
+``` bash
 analisis-retail/
 │
 ├── 📂 data/                   # Datos crudos y procesados
@@ -110,13 +103,45 @@ analisis-retail/
 │   └── 🐍 utilities.py       # Funciones auxiliares (limpieza, helpers)
 │
 └── 📄 README.md               # Documentación principal del proyecto
+```
 - **Modularización**: El código en `/src` sigue el principio DRY (Don't Repeat Yourself)
 - **Versionado de Datos**: Los archivos en `/data` nunca se modifican directamente
 - **Reproducibilidad**: Los notebooks incluyen outputs versionados
 - **Seguridad**: Archivos sensibles agregados a `.gitignore`
 
 ## 3. Ejemplos de gráficos  e insights obtenidos.
-## 4 Intrucciones  para  ejecutar el notebook.
-#recomendacion_final
-## conclusion
+
+## 4. Intrucciones  para  ejecutar el notebook.
+# 📈 Análisis de Desempeño Retail | Data Science
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-blue?logo=pandas)
+![Folium](https://img.shields.io/badge/Folium-0.14-green?logo=folium)
+
+Análisis multivariable para evaluación estratégica de tiendas retail, incluyendo métricas financieras, satisfacción cliente y geolocalización.
+
+## 🚀 Ejecutar en Google Colab
+
+### 1. Instalar dependencias
+- bash  
+!pip install folium==0.14.0 seaborn==0.12.2 matplotlib==3.7.1 --quiet
+!jupyter nbextension enable --py folium --sys-prefix
+
+### Ejecutar todas las celdas en este orden:
+#### 1. Importaciones iniciales
+####  2. Análisis de facturación
+####  3. Ventas por categoría
+####  4. Calificación promedio
+####  5. Productos más/menos vendidos
+####  6. Costos de envío
+####  7. Análisis geográfico  
+### Datos de entrada
+#####  Los datasets se cargan automáticamente desde:
+####  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/main/
+
+####  Los gráficos se mostrarán automáticamente
+
+## 📄 Licencia
+MIT License - Libre para uso y modificaciones
+
 
