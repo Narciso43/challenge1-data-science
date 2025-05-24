@@ -140,6 +140,34 @@ Análisis multivariable para evaluación estratégica de tiendas retail, incluye
 ####  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/main/
 
 ####  Los gráficos se mostrarán automáticamente
+## 🌍 Geoanálisis(Análisis del desempeño geográfico)
+### 📊 Gráfica de Análisis de Facturación
+Propósito:Comparar el desempeño financiero entre las 4 tiendas mediante métricas clave de ingresos
+![ Verifique las rutas ](AnalisisFacturacion.png "Gráfica de Analisis de Facturacion ")
+
+#### 📈 Gráfica de Análisis Comparativo - Ventas por Categoría
+Propósito: Identificar patrones de ventas específicos por categoría entre múltiples tiendas mediante comparación visual directa.
+![Verique las rutas](VentasCategoria1.png "Ventas por Categoria Analisis Comparativo")
+
+#### ⭐ Gráfica de Calificación Promedio por Tienda
+Propósito: Evaluar la satisfacción del cliente mediante análisis de reseñas y ratings históricos.
+![Texto alternativo](CalificacionPorTienda.png "Satisfacción del Cliente por Tienda")
+
+#### 📦 Gráfica de Productos Más y Menos Vendidos
+Propósito: Identificar líderes de ventas y productos subperformantes mediante análisis dual (top/bottom 5).
+![Verique las rutas](ProductoMasMenosVendido1.png " Analisis de productos mas y menos vendidos por tienda")
+
+#### 📦 Gráfica de Costos de Envío por Tienda
+Propósito: Analizar la eficiencia logística y distribución de costos de envío entre tiendas.
+![Verique las rutas](CostoEnvioTienda1.png "Costos de envio por tienda")
+
+#### 🌍 Mapa de Calor - Desempeño Geográfico (Tienda 4)
+Propósito: Visualizar la densidad de ventas y distribución espacial de clientes para optimizar rutas de entrega y estrategias locales.
+![Verique las rutas](MapaCalorT4.png "Mapa de Calor Tienda 4")
+
+#### 🌍 Análisis Geográfico - Tienda 4
+Propósito: Optimizar la logística y estrategias comerciales basado en la distribución espacial de clientes y ventas.
+![Verique las rutas](ZonaGeograficaT4.png "Zaona Geografica Tienda 4")
 
 ## 📄 Licencia
 MIT License - Libre para uso y modificaciones
