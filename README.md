@@ -32,14 +32,11 @@ bash
 - 📦 $18.50 costo promedio de envío (+25% vs promedio)
 - 🌎 Zona con alta competencia (ver heatmap)
 
--mermaid
-graph TD
-    A[Análisis Inicial]:::orange --> B{Evaluación Cuantitativa}:::purple
-    A --> C{Evaluación Cualitativa}:::purple
-    classDef orange fill:#FFA500,stroke:#333,stroke-width:2px;
-    classDef purple fill:#9370DB,stroke:#333,stroke-width:2px;
+
 
 **¿Como se Decidio?**
+
+``` mermaid
 graph TD
     A[Análisis Inicial] --> B{Evaluación Cuantitativa}
     A --> C{Evaluación Cualitativa}
@@ -49,7 +46,14 @@ graph TD
     C --> G[Análisis Geográfico]
     D & E & F & G --> H[Matriz de Decisión]
     H --> I[Recomendación Final]
-
+```
+```mermaid
+graph TD
+    A[Análisis Inicial]:::orange --> B{Evaluación Cuantitativa}:::purple
+    A --> C{Evaluación Cualitativa}:::purple
+    classDef orange fill:#FFA500,stroke:#333,stroke-width:2px;
+    classDef purple fill:#9370DB,stroke:#333,stroke-width:2px;
+```
 ## 2. La estructura del proyecto y organizacion de los archivos.
 ## 3. Ejemplos de gráficos  e insights obtenidos.
 ## 4 Intrucciones  para  ejecutar el notebook.
