@@ -81,3 +81,6 @@ graph TD
 ## 2. La estructura del proyecto y organizacion de los archivos.
 ## 3. Ejemplos de gráficos  e insights obtenidos.
 ## 4 Intrucciones  para  ejecutar el notebook.
+#recomendacion_final
+## conclusion
+
