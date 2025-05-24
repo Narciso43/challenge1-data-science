@@ -26,12 +26,20 @@ Durante este desafío, ayudarás al Sr. Juan a decidir qué tienda de su cadena 
 **Tienda recomendada para venta: Tienda 4**  
 
 ✅ **Justificación técnica**:
-```bash
+bash
 - 📉 14.9% de ingresos totales (más bajo)
 - ⚠️ 3.1/5 en satisfacción cliente 
 - 📦 $18.50 costo promedio de envío (+25% vs promedio)
 - 🌎 Zona con alta competencia (ver heatmap)
-##¿Como se Decidio?
+
+-mermaid
+graph TD
+    A[Análisis Inicial]:::orange --> B{Evaluación Cuantitativa}:::purple
+    A --> C{Evaluación Cualitativa}:::purple
+    classDef orange fill:#FFA500,stroke:#333,stroke-width:2px;
+    classDef purple fill:#9370DB,stroke:#333,stroke-width:2px;
+
+**¿Como se Decidio?**
 graph TD
     A[Análisis Inicial] --> B{Evaluación Cuantitativa}
     A --> C{Evaluación Cualitativa}
