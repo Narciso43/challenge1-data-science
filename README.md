@@ -128,13 +128,13 @@ Análisis multivariable para evaluación estratégica de tiendas retail, incluye
 !jupyter nbextension enable --py folium --sys-prefix
 
 ### Ejecutar todas las celdas en este orden:
-#### 1. Importaciones iniciales
-####  2. Análisis de facturación
-####  3. Ventas por categoría
-####  4. Calificación promedio
-####  5. Productos más/menos vendidos
-####  6. Costos de envío
-####  7. Análisis geográfico  
+####  1. Importación de datos. 
+####  2. Análisis de facturación.
+####  3. Ventas por categoría.
+####  4. Calificación promedio.
+####  5. Productos más y menos vendidos.
+####  6. Envío promedio por tienda.
+####  7. Análisis del desempeño geográfico.
 ### Datos de entrada
 #####  Los datasets se cargan automáticamente desde:
 ####  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/main/
